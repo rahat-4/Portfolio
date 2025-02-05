@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { assets } from "@/assets/assets";
 
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
@@ -18,9 +18,9 @@ const Header = () => {
         initial={{ y: -20, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, delay: 0.3 }}
-        className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo"
+        className="flex items-center gap-2 text-xl md:text-2xl mb-3 font-ovo"
       >
-        Hi I'm Mainul Islam Rahat{" "}
+        Hi! I'm Mainul Islam Rahat{" "}
         <Image src={assets.hand_icon} alt="" className="w-6" />
       </motion.h3>
       <motion.h1
@@ -29,7 +29,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-ovo"
       >
-        Full stack web developer in Bangladesh
+        Software Engineer in Bangladesh
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -37,11 +37,11 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-ovo"
       >
-        I am an Entrepreneur and a Mid-Level Software Engineer. I specialize in
-        building scalable full-stack web applications using Python/Django and
-        React/Next.js. I write clean code and create pixel-perfect designs. With
-        over two years of experience, I have worked as a Software Engineer at
-        two software companies.
+        I am also a passionate Entrepreneur and Full-Stack Web Developer
+        specializing in building scalable web applications using Python, Django,
+        React, and Next.js. Whether you're looking for a custom web application,
+        a business solution, or a tech-driven product, I'm here to turn your
+        ideas into reality. Let's build something amazing together! 🚀
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <motion.a

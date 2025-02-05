@@ -35,8 +35,10 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import image_one from "./image_1.jpg";
 
 export const assets = {
+  image_one,
   user_image,
   code_icon,
   code_icon_dark,
@@ -102,28 +104,37 @@ export const workData = [
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
+    title: "Full-Stack Web Development",
+    description:
+      "I develop dynamic, responsive, and scalable web applications using Django, React, and Next.js.",
     link: "",
   },
   {
     icon: assets.mobile_icon,
-    title: "Mobile app",
+    title: "Custom Software Solutions",
     description:
-      "Mobile app development involves creating software for mobile devices...",
+      "Need a business management system, an e-commerce platform, or a data-driven web app? I design and build software tailored to your needs.",
     link: "",
   },
   {
     icon: assets.ui_icon,
-    title: "UI/UX design",
+    title: "API Development & Integration",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
+      "I create secure and efficient APIs using Django REST Framework and integrate third-party services for seamless functionality.",
     link: "",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    title: "Database Design & Optimization",
+    description:
+      "Efficient SQL database management ensures your application runs smoothly with high performance.",
+    link: "",
+  },
+  {
+    icon: assets.graphics_icon,
+    title: "Consultation & Code Review",
+    description:
+      "I provide technical guidance, best practices, and code reviews to improve software quality.",
     link: "",
   },
 ];
@@ -133,13 +144,14 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description:
+      "HTML, CSS, JavaScript ReactJs, NextJs, Python, Django, SQL, MySQL",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Education",
-    description: "B.Tech in Computer Science",
+    description: "BSc in Computer Science and Engineering",
   },
   {
     icon: assets.project_icon,

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import { assets, serviceData } from "@/assets/assets";
 
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 const Services = ({ isDarkMode }) => {
   return (
@@ -28,7 +28,7 @@ const Services = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-ovo"
       >
-        My services
+        My Services
       </motion.h2>
       <motion.p
         initial={{ opacity: 0 }}
@@ -36,11 +36,10 @@ const Services = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo"
       >
-        I am an Entrepreneur and a Mid-Level Software Engineer. I specialize in
-        building scalable full-stack web applications using Python/Django and
-        React/Next.js. I write clean code and create pixel-perfect designs. With
-        over two years of experience, I have worked as a Software Engineer at
-        two software companies.
+        I offer custom web development solutions to help businesses grow with
+        technology. From full-stack development to API integration and database
+        optimization, I build scalable and efficient applications tailored to
+        your needs. Let’s create something powerful together!
       </motion.p>
       <motion.div
         initial={{ opacity: 0 }}

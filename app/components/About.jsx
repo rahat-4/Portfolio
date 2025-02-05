@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { assets, infoList, toolsData } from "@/assets/assets";
 
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 const About = ({ isDarkMode }) => {
   return (
@@ -27,7 +27,7 @@ const About = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-ovo"
       >
-        About me
+        About Me
       </motion.h2>
       <motion.div
         initial={{ opacity: 0 }}
@@ -42,7 +42,7 @@ const About = ({ isDarkMode }) => {
           className="w-64 sm:w-80 rounded-3xl max-w-none"
         >
           <Image
-            src={assets.profile_img}
+            src={assets.image_one}
             alt="user image"
             className="w-full rounded-3xl"
           />
@@ -54,11 +54,15 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-ovo">
-            I am an Entrepreneur and a Mid-Level Software Engineer. I specialize
-            in building scalable full-stack web applications using Python/Django
-            and React/Next.js. I write clean code and create pixel-perfect
-            designs. With over two years of experience, I have worked as a
-            Software Engineer at two software companies.
+            I am a Software Engineer & Entrepreneur with a strong background in
+            full-stack web development. With years of experience working with
+            companies like Cloud Development & Data Analytics and REPLIQ
+            Limited, I have developed, deployed, and maintained complex software
+            solutions across various industries. I have worked on multiple
+            projects, from land trading platforms to recruitment solutions,
+            ensuring high-quality development with best coding practices. My
+            goal is to create impactful digital experiences and help businesses
+            grow with technology.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}

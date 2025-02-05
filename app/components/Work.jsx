@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { assets, workData } from "@/assets/assets";
 
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
 
 const Work = ({ isDarkMode }) => {
   return (
